@@ -4,7 +4,7 @@ The zenoh public homebrew tap for OS X homebrew formulae
 
 ## Installing zenoh
 ```
-    brew tap eclipse-eznoh/homebrew-zenoh
+    brew tap eclipse-zenoh/homebrew-zenoh
 ```
 
 ```
