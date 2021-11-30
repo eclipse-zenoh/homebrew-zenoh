@@ -1,9 +1,9 @@
 class Libzenohc < Formula
   desc "zenoh-c API (geo-distributed pub/sub/query/storage of data)"
   homepage "https://zenoh.io"
-  url "https://download.eclipse.org/zenoh/zenoh-c/0.5.0-beta.8/eclipse-zenoh-c-0.5.0-beta.8-macosx10.7-x86-64.tar.gz"
-  version "0.5.0-beta.8"
-  sha256 "95a3ec862005cb0958797fee4e36acec0cc144b544f038ccddec1b9b7060e6d9"
+  url "https://download.eclipse.org/zenoh/zenoh-c/0.5.0-beta.9/x86_64-apple-darwin/zenoh-c-0.5.0-beta.9-x86_64-apple-darwin.zip"
+  version "0.5.0-beta.9"
+  sha256 "65e435571563b2f1816a8bb1da17ab4792366e0ce24d11a1f99f3fd981956b78"
 
   def install
     lib.install "libzenohc.dylib"
