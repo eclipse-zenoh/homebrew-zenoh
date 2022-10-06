@@ -1,9 +1,9 @@
 class Zenoh < Formula
   desc "Eclipse Zenoh (geo-distributed pub/sub/query/storage of data)"
   homepage "https://zenoh.io"
-  url "https://download.eclipse.org/zenoh/zenoh/0.5.0-beta.9/x86_64-apple-darwin/zenoh-0.5.0-beta.9-x86_64-apple-darwin.zip"
-  version "0.5.0-beta.9"
-  sha256 "230fe51193df5f37468cca5e1d2c4d3180b69a3b92282ffa18ea4ae60b00cc10"
+  url "https://download.eclipse.org/zenoh/zenoh/0.6.0-beta.1/x86_64-apple-darwin/zenoh-0.6.0-beta.1-x86_64-apple-darwin.zip"
+  version "0.6.0-beta.1"
+  sha256 "b09a881b9ffdc76db64bc67d1bf064858e696ea09c5f3b5a2c932edc1bb65220"
 
   depends_on "zenohd"
   depends_on "zenoh-plugin-rest" => :recommended
