@@ -17,6 +17,6 @@ class ZenohPluginRest < Formula
   depends_on "zenohd"
 
   def install
-    lib.install "libzplugin_rest.dylib"
+    lib.install "libzenoh_plugin_rest.dylib"
   end
 end

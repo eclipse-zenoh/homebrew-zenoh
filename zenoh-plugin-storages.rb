@@ -17,6 +17,6 @@ class ZenohPluginStorages < Formula
   depends_on "zenohd"
 
   def install
-    lib.install "libzplugin_storage_manager.dylib"
+    lib.install "libzenoh_plugin_storage_manager.dylib"
   end
 end
