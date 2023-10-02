@@ -6,11 +6,11 @@ class Libzenohc < Formula
   on_macos do
     on_intel do
       url "https://download.eclipse.org/zenoh/zenoh-c/0.10.0-rc/x86_64-apple-darwin/zenoh-c-0.10.0-rc-x86_64-apple-darwin.zip"
-      sha256 "4a21ac5a24c175d30a1a498c8145865e42d1348bc34921031dc8fe124be65754"
+      sha256 "16802aee29bcd27a917b9a3d515489f23f69b6be4a2a4b0f463dde6e338e721b"
     end
     on_arm do
       url "https://download.eclipse.org/zenoh/zenoh-c/0.10.0-rc/aarch64-apple-darwin/zenoh-c-0.10.0-rc-aarch64-apple-darwin.zip"
-      sha256 "55b85a1e4a5dcb81c1221bafc6f9780d989db379a50aecd6c38f6841385cae5d"
+      sha256 "dde866f9ecd5702b027357f5e15a7694374fa7560c0c9e5b5ebad2bc3e36a458"
     end
   end
 
