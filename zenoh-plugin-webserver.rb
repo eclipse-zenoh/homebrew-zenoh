@@ -1,16 +1,16 @@
 class ZenohPluginWebserver < Formula
   desc "Eclipse zenoh webserver plugin"
   homepage "https://zenoh.io"
-  version "0.7.2-rc"
+  version "0.10.0-rc"
 
   on_macos do
     on_intel do
-      url "https://download.eclipse.org/zenoh/zenoh-plugin-webserver/0.7.2-rc/x86_64-apple-darwin/zenoh-plugin-webserver-0.7.2-rc-x86_64-apple-darwin.zip"
-      sha256 "b87d955ee54fba6cc4096ada4a96a2ed97cb5e6f5ef6ea76c6c2f001f3b987c5"
+      url "https://download.eclipse.org/zenoh/zenoh-plugin-webserver/0.10.0-rc/x86_64-apple-darwin/zenoh-plugin-webserver-0.10.0-rc-x86_64-apple-darwin.zip"
+      sha256 "b9e8e6e8f9a15a660cb5b57026a28a7d833c740a15f54221f985fb499d08e96d"
     end
     on_arm do
-      url "https://download.eclipse.org/zenoh/zenoh-plugin-webserver/0.7.2-rc/aarch64-apple-darwin/zenoh-plugin-webserver-0.7.2-rc-aarch64-apple-darwin.zip"
-      sha256 "0eb06ab6416fb3bda9e802210535e81a20dfc83143dc13c57a42908b8d3e035d"
+      url "https://download.eclipse.org/zenoh/zenoh-plugin-webserver/0.10.0-rc/aarch64-apple-darwin/zenoh-plugin-webserver-0.10.0-rc-aarch64-apple-darwin.zip"
+      sha256 "a2dc4d24d01b5bf933b59d9893ad75f272481c4965759209717d4afb1c0551ed"
     end
   end
 

@@ -1,16 +1,16 @@
 class Libzenohc < Formula
   desc "zenoh-c API (geo-distributed pub/sub/query/storage of data)"
   homepage "https://zenoh.io"
-  version "0.7.2-rc"
+  version "0.10.0-rc"
 
   on_macos do
     on_intel do
-      url "https://download.eclipse.org/zenoh/zenoh-c/0.7.2-rc/x86_64-apple-darwin/zenoh-c-0.7.2-rc-x86_64-apple-darwin.zip"
-      sha256 "9568dbc4d34968d3345d8688742ca0b39d12a8dd81b1122901a7fc876a1fa0db"
+      url "https://download.eclipse.org/zenoh/zenoh-c/0.10.0-rc/x86_64-apple-darwin/zenoh-c-0.10.0-rc-x86_64-apple-darwin.zip"
+      sha256 "4a21ac5a24c175d30a1a498c8145865e42d1348bc34921031dc8fe124be65754"
     end
     on_arm do
-      url "https://download.eclipse.org/zenoh/zenoh-c/0.7.2-rc/aarch64-apple-darwin/zenoh-c-0.7.2-rc-aarch64-apple-darwin.zip"
-      sha256 "4d611c0161b28dae12e3c5fabc2cf4823b4c3544acef9fe53e6a4911aff2fb1b"
+      url "https://download.eclipse.org/zenoh/zenoh-c/0.10.0-rc/aarch64-apple-darwin/zenoh-c-0.10.0-rc-aarch64-apple-darwin.zip"
+      sha256 "55b85a1e4a5dcb81c1221bafc6f9780d989db379a50aecd6c38f6841385cae5d"
     end
   end
 

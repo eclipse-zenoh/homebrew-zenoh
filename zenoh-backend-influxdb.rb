@@ -1,16 +1,16 @@
 class ZenohBackendInfluxdb < Formula
   desc "Eclipse zenoh influxdb backend"
   homepage "https://zenoh.io"
-  version "0.7.2-rc"
+  version "0.10.0-rc"
 
   on_macos do
     on_intel do
-      url "https://download.eclipse.org/zenoh/zenoh-backend-influxdb/0.7.2-rc/x86_64-apple-darwin/zenoh-backend-influxdb-0.7.2-rc-x86_64-apple-darwin.zip"
-      sha256 "d076b25f4fd40b3a45e582995bd5bca947cb41edfdcbfa705929ac566b35c8de"
+      url "https://download.eclipse.org/zenoh/zenoh-backend-influxdb/0.10.0-rc/x86_64-apple-darwin/zenoh-backend-influxdb-0.10.0-rc-x86_64-apple-darwin.zip"
+      sha256 "f02fe076c9339aca6cfdad29185d5517b958a2b6126d818bd59a5e36a02eb014"
     end
     on_arm do
-      url "https://download.eclipse.org/zenoh/zenoh-backend-influxdb/0.7.2-rc/aarch64-apple-darwin/zenoh-backend-influxdb-0.7.2-rc-aarch64-apple-darwin.zip"
-      sha256 "3719594c0de9907f9fbb696b4c5379b33d2dfe4aafe057718c78ecb40bcae5f3"
+      url "https://download.eclipse.org/zenoh/zenoh-backend-influxdb/0.10.0-rc/aarch64-apple-darwin/zenoh-backend-influxdb-0.10.0-rc-aarch64-apple-darwin.zip"
+      sha256 "4568d9565c3f61d391b54a3451bff07496f750f577c29b935c15993f3b579f93"
     end
   end
 

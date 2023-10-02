@@ -1,16 +1,16 @@
 class Zenohd < Formula
   desc "Eclipse zenoh router (geo-distributed pub/sub/query/storage of data)"
   homepage "https://zenoh.io"
-  version "0.7.2-rc"
+  version "0.10.0-rc"
 
   on_macos do
     on_intel do
-      url "https://download.eclipse.org/zenoh/zenoh/0.7.2-rc/x86_64-apple-darwin/zenoh-0.7.2-rc-x86_64-apple-darwin.zip"
-      sha256 "0146f7d41459f7e16696ec17005e4e9ded4496f747707b9f8520e9a59b92ef59"
+      url "https://download.eclipse.org/zenoh/zenoh/0.10.0-rc/x86_64-apple-darwin/zenoh-0.10.0-rc-x86_64-apple-darwin.zip"
+      sha256 "4fad99c4da5f97fc631718700c0f79727405d73007d0fd12a84abc258e1dae89"
     end
     on_arm do
-      url "https://download.eclipse.org/zenoh/zenoh/0.7.2-rc/aarch64-apple-darwin/zenoh-0.7.2-rc-aarch64-apple-darwin.zip"
-      sha256 "f6d169d57ff3e585cf4988dfb0479464f4fdb1241370b39b441d6bb71f660538"
+      url "https://download.eclipse.org/zenoh/zenoh/0.10.0-rc/aarch64-apple-darwin/zenoh-0.10.0-rc-aarch64-apple-darwin.zip"
+      sha256 "88852080e46d992312d678f3d0f8e5ef564d968280d114a2e7b57538f0166498"
     end
   end
 
