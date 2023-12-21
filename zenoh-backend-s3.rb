@@ -1,16 +1,16 @@
 class ZenohBackendS3 < Formula
   desc "Eclipse zenoh s3 backend"
   homepage "https://zenoh.io"
-  version "0.10.0-rc"
+  version "0.10.1-rc"
 
   on_macos do
     on_intel do
-      url "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.0-rc/x86_64-apple-darwin/zenoh-backend-s3-0.10.0-rc-x86_64-apple-darwin.zip"
-      sha256 "1453a4afa5b8bd0e773c96bd0f49a3ccd834f5590c76dfcb265c7df7ccf80bd7"
+      url "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.1-rc/x86_64-apple-darwin/zenoh-backend-s3-0.10.1-rc-x86_64-apple-darwin.zip"
+      sha256 "c69b9b1491839c97d1935581a2d20f5998fb49c773e45c2414314bc1bdbc7348"
     end
     on_arm do
-      url "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.0-rc/aarch64-apple-darwin/zenoh-backend-s3-0.10.0-rc-aarch64-apple-darwin.zip"
-      sha256 "b86d5207699b88f86a3091c95dcbd89aa3f351bb4495d473ac2549571f8fb2b9"
+      url "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.1-rc/aarch64-apple-darwin/zenoh-backend-s3-0.10.1-rc-aarch64-apple-darwin.zip"
+      sha256 "3331a77998f8c4d119c473bc3adcaec2671aa86fd5285f90360858fd3ea7a233"
     end
   end
 
