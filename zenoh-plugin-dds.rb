@@ -1,4 +1,4 @@
-class ZenohPluginDDS < Formula
+class ZenohPluginDds < Formula
   desc "Eclipse zenoh dds plugin"
   homepage "https://zenoh.io"
   version "0.10.1-rc"

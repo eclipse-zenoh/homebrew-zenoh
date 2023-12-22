@@ -1,4 +1,4 @@
-class ZenohBridgeDDS < Formula
+class ZenohBridgeDds < Formula
   desc "Eclipse zenoh dds bridge"
   homepage "https://zenoh.io"
   version "0.10.1-rc"
