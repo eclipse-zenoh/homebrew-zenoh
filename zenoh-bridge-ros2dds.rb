@@ -1,4 +1,4 @@
-class ZenohBridgeRos2Dds < Formula
+class ZenohBridgeRos2dds < Formula
   desc "Eclipse zenoh ros2dds bridge"
   homepage "https://zenoh.io"
   version "0.10.1-rc"

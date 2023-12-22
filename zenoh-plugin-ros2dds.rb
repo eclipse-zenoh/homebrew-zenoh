@@ -1,4 +1,4 @@
-class ZenohPluginRos2Dds < Formula
+class ZenohPluginRos2dds < Formula
   desc "Eclipse zenoh ros2dds plugin"
   homepage "https://zenoh.io"
   version "0.10.1-rc"
