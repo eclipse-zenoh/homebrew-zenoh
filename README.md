@@ -3,6 +3,7 @@
 The zenoh public homebrew tap for OS X homebrew formulae
 
 ## Installing zenoh
+
 ```
     brew tap eclipse-zenoh/homebrew-zenoh
 ```
@@ -12,6 +13,7 @@ The zenoh public homebrew tap for OS X homebrew formulae
 ```
 
 ## Available formulae
+
 <dl>
   <dt>zenoh</dt>
   <dd>Eclipse Zenoh. A meta-formula that will install the following formulae:
@@ -38,6 +40,8 @@ The zenoh public homebrew tap for OS X homebrew formulae
   <dd>Eclipse zenoh dds plugin.</dd>
   <dt>zenoh-bridge-ros1</dt>
   <dd>Eclipse zenoh ros1 bridge.</dd>
+  <dt>zenoh-bridge-ros2dds</dt>
+  <dd>Eclipse zenoh ros2dds bridge.</dd>
   <dt>zenoh-bridge-mqtt</dt>
   <dd>Eclipse zenoh mqtt bridge.</dd>
   <dt>zenoh-bridge-dds</dt>
