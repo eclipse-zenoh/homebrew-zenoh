@@ -1,16 +1,16 @@
-class ZenohPluginDDS < Formula
+class ZenohPluginDds < Formula
   desc "Eclipse zenoh dds plugin"
   homepage "https://zenoh.io"
-  version "0.10.0-rc"
+  version "0.10.1-rc"
 
   on_macos do
     on_intel do
-      url "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.0-rc/x86_64-apple-darwin/zenoh-plugin-dds-0.10.0-rc-x86_64-apple-darwin.zip"
-      sha256 "2aa95ffb13ff6522397b94513f2d99eeec746b897aa67600e657e9a72f5a0f53"
+      url "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.1-rc/x86_64-apple-darwin/zenoh-plugin-dds-0.10.1-rc-x86_64-apple-darwin.zip"
+      sha256 "55b5ca098092c537d53c33e1cb49610c09942144df37f59708dbfe920b8f1f8a"
     end
     on_arm do
-      url "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.0-rc/aarch64-apple-darwin/zenoh-plugin-dds-0.10.0-rc-aarch64-apple-darwin.zip"
-      sha256 "449d529734111e7035f1409d971c396a6c416799207a797f15234177afe89d69"
+      url "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.1-rc/aarch64-apple-darwin/zenoh-plugin-dds-0.10.1-rc-aarch64-apple-darwin.zip"
+      sha256 "d70bcc9198c192353f90f1d8c492a6e22819e929accb5a8e0c3952f4ef9c94c7"
     end
   end
 
