@@ -8,6 +8,9 @@ class ZenohPluginMqtt < Formula
       url "https://download.eclipse.org/zenoh/zenoh-plugin-mqtt/0.10.1-rc/x86_64-apple-darwin/zenoh-plugin-mqtt-0.10.1-rc-x86_64-apple-darwin.zip"
       sha256 "7aaf33f6f83301a96353b13e3c5afd274f2f2eaac41fb87d67f5d5539efa7823"
     end
+    on_arm do
+      odie "zenoh-plugin-mqtt is not available for Apple Silicon"
+    end
   end
 
   depends_on "zenohd"
