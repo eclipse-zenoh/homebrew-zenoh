@@ -6,11 +6,11 @@ class ZenohBackendS3 < Formula
   on_macos do
     on_intel do
       url "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.1-rc/x86_64-apple-darwin/zenoh-backend-s3-0.10.1-rc-x86_64-apple-darwin.zip"
-      sha256 "c69b9b1491839c97d1935581a2d20f5998fb49c773e45c2414314bc1bdbc7348"
+      sha256 "6ccc57ad8e3887aaa431d4eb3102e78643a234a8715993cdca9924580afd0979"
     end
     on_arm do
       url "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.1-rc/aarch64-apple-darwin/zenoh-backend-s3-0.10.1-rc-aarch64-apple-darwin.zip"
-      sha256 "3331a77998f8c4d119c473bc3adcaec2671aa86fd5285f90360858fd3ea7a233"
+      sha256 "d30c4d371c74265cb7b9bc7afb5141184504bd57a940ca246de7477e34aa3b45"
     end
   end
 

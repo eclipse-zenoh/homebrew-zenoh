@@ -6,11 +6,11 @@ class ZenohBackendInfluxdb < Formula
   on_macos do
     on_intel do
       url "https://download.eclipse.org/zenoh/zenoh-backend-influxdb/0.10.1-rc/x86_64-apple-darwin/zenoh-backend-influxdb-0.10.1-rc-x86_64-apple-darwin.zip"
-      sha256 "540d953f17702ec1ec3388c6a946753169fb6a22bdfe912a9c2302036dfb1af0"
+      sha256 "ce8afd477de5cc6340a7d10a1f7158d0d98f63082326a5cd63bb6af6513aae3f"
     end
     on_arm do
       url "https://download.eclipse.org/zenoh/zenoh-backend-influxdb/0.10.1-rc/aarch64-apple-darwin/zenoh-backend-influxdb-0.10.1-rc-aarch64-apple-darwin.zip"
-      sha256 "5e7fb736ec4a74818d84bdfafba3fa1fbc7204a39430ec7d0d56d4f309a5580b"
+      sha256 "beff8cb583e07c3b610bc4073decbd1efb6211a4319a643576551e09cb648c50"
     end
   end
 

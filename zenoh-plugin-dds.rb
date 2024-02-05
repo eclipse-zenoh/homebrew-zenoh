@@ -6,11 +6,11 @@ class ZenohPluginDds < Formula
   on_macos do
     on_intel do
       url "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.1-rc/x86_64-apple-darwin/zenoh-plugin-dds-0.10.1-rc-x86_64-apple-darwin.zip"
-      sha256 "55b5ca098092c537d53c33e1cb49610c09942144df37f59708dbfe920b8f1f8a"
+      sha256 "b406ca177b846480cc2c38492c1fb4eeff68d17faef4dc38e20f11c2ca37a5d9"
     end
     on_arm do
       url "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.1-rc/aarch64-apple-darwin/zenoh-plugin-dds-0.10.1-rc-aarch64-apple-darwin.zip"
-      sha256 "d70bcc9198c192353f90f1d8c492a6e22819e929accb5a8e0c3952f4ef9c94c7"
+      sha256 "f72e66c2eaff094ed276dccd6c1b904d4297ee8e636059ff16f021174dcbe4bc"
     end
   end
 

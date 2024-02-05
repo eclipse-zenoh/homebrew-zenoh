@@ -6,11 +6,11 @@ class ZenohBridgeMqtt < Formula
   on_macos do
     on_intel do
       url "https://download.eclipse.org/zenoh/zenoh-plugin-mqtt/0.10.1-rc/x86_64-apple-darwin/zenoh-bridge-mqtt-0.10.1-rc-x86_64-apple-darwin.zip"
-      sha256 "1cbf24ff816c435f7465c6bedcc10020e7d3727bed541d8ef6a145f0160efa34"
+      sha256 "dd366c1fbcdd53268153a6a09e9ec10cecb2700120a971e8eb4edd19a81cdc89"
     end
     on_arm do
       url "https://download.eclipse.org/zenoh/zenoh-plugin-mqtt/0.10.1-rc/aarch64-apple-darwin/zenoh-bridge-mqtt-0.10.1-rc-aarch64-apple-darwin.zip"
-      sha256 "c13701992502615ea4372e57b17194d3dd76a65aab2a9f7729cbb1f48818e40c"
+      sha256 "5e15a0d9f4ab4ade5e88b56af3e4bc3c49000f6678b460bd9902a4f17f046bd7"
     end
   end
 
