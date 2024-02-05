@@ -6,11 +6,11 @@ class ZenohBridgeRos1 < Formula
   on_macos do
     on_intel do
       url "https://download.eclipse.org/zenoh/zenoh-plugin-ros1/0.10.1-rc/x86_64-apple-darwin/zenoh-bridge-ros1-0.10.1-rc-x86_64-apple-darwin.zip"
-      sha256 "4bd847e7f287ef468e0e0e9daf7fce66fa1cd9d6febfa2ab7b1ccb208c5a3a72"
+      sha256 "ef9260648a918d24c47ddf82e548bd151a2c2df1704fa8b3385b36d8f7532df7"
     end
     on_arm do
       url "https://download.eclipse.org/zenoh/zenoh-plugin-ros1/0.10.1-rc/aarch64-apple-darwin/zenoh-bridge-ros1-0.10.1-rc-aarch64-apple-darwin.zip"
-      sha256 "9051e80c041e5258822b4b780d0f5b5822cf49a1c1184b1344da536fb85211a0"
+      sha256 "9572b177f1220ebdbc60141d716f50df67f05a13c2e8c25ebd9affa89ab10c66"
     end
   end
 

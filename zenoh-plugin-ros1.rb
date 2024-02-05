@@ -6,11 +6,11 @@ class ZenohPluginRos1 < Formula
   on_macos do
     on_intel do
       url "https://download.eclipse.org/zenoh/zenoh-plugin-ros1/0.10.1-rc/x86_64-apple-darwin/zenoh-plugin-ros1-0.10.1-rc-x86_64-apple-darwin.zip"
-      sha256 "9ef942b45c1909c88363d722ddf6004b669ea14f838035430fadf4b8fa6a0812"
+      sha256 "1bf7ce7af9d19b319ac3d619086184921335d70b20470facad70f8e180d6bdad"
     end
     on_arm do
       url "https://download.eclipse.org/zenoh/zenoh-plugin-ros1/0.10.1-rc/aarch64-apple-darwin/zenoh-plugin-ros1-0.10.1-rc-aarch64-apple-darwin.zip"
-      sha256 "01f629fd88db15e38a1dd075b36e9e4f998099b4de54288a47c25c5413fa261b"
+      sha256 "318dc4ddbd5cc3acff5b61e063abf7bd35265501151ce78fcd7901efe8ba5a13"
     end
   end
 

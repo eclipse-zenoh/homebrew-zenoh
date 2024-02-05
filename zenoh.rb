@@ -6,11 +6,11 @@ class Zenoh < Formula
   on_macos do
     on_intel do
       url "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/x86_64-apple-darwin/zenoh-0.10.1-rc-x86_64-apple-darwin.zip"
-      sha256 "13fbad779bda59263b3137dcc0c5c3d79735456fb0ead508833812b61ad3dc17"
+      sha256 "0a9471cc1ff0e18b51120c7cc7d2e920afb3f2a1647f03d059a6fc24e9cb4a45"
     end
     on_arm do
       url "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/aarch64-apple-darwin/zenoh-0.10.1-rc-aarch64-apple-darwin.zip"
-      sha256 "8af89b8bf1d20d9d0bd5d440ff4c0532d3ab1e360e056625b5e434f31e0aeb75"
+      sha256 "03ae125c26d498a83cd91dfc4516f36c0503b595959400bc04907562dfeed19f"
     end
   end
 
