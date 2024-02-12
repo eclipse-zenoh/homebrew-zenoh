@@ -1,21 +1,24 @@
+require "json"
+
 class ZenohBackendS3 < Formula
+  release = JSON.parse(File.read("#{__dir__}/release.json"))[File.basename(__FILE__, ".rb")]
+
   desc "Eclipse zenoh s3 backend"
   homepage "https://zenoh.io"
-  version "0.10.1-rc"
+
+  depends_on "zenoh-plugin-storage-manager"
+  depends_on "zenohd"
 
   on_macos do
     on_intel do
-      url "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.1-rc/x86_64-apple-darwin/zenoh-backend-s3-0.10.1-rc-x86_64-apple-darwin.zip"
-      sha256 "6ccc57ad8e3887aaa431d4eb3102e78643a234a8715993cdca9924580afd0979"
+      url release["x86_64-url"]
+      sha256 release["x86_64-sha256"]
     end
     on_arm do
-      url "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.1-rc/aarch64-apple-darwin/zenoh-backend-s3-0.10.1-rc-aarch64-apple-darwin.zip"
-      sha256 "d30c4d371c74265cb7b9bc7afb5141184504bd57a940ca246de7477e34aa3b45"
+      url release["aarch64-url"]
+      sha256 release["aarch64-sha256"]
     end
   end
-
-  depends_on "zenohd"
-  depends_on "zenoh-plugin-storages"
 
   def install
     lib.install "libzenoh_backend_s3.dylib"

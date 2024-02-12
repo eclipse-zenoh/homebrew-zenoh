@@ -1,10 +1,12 @@
 require "json"
 
-class ZenohBridgeDds < Formula
+class ZenohPluginStorageManager < Formula
   release = JSON.parse(File.read("#{__dir__}/release.json"))[File.basename(__FILE__, ".rb")]
 
-  desc "Eclipse zenoh dds bridge"
+  desc "Eclipse zenoh storages plugin (geo-distributed pub/sub/query/storage of data)"
   homepage "https://zenoh.io"
+
+  depends_on "zenohd"
 
   on_macos do
     on_intel do
@@ -18,6 +20,6 @@ class ZenohBridgeDds < Formula
   end
 
   def install
-    bin.install "zenoh-bridge-dds"
+    lib.install "libzenoh_plugin_storage_manager.dylib"
   end
 end

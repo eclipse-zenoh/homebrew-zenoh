@@ -1,26 +1,29 @@
+require "json"
+
 class Zenoh < Formula
+  release = JSON.parse(File.read("#{__dir__}/release.json"))[File.basename(__FILE__, ".rb")]
+
   desc "Eclipse Zenoh (geo-distributed pub/sub/query/storage of data)"
   homepage "https://zenoh.io"
-  version "0.10.1-rc"
+
+  depends_on "zenohd"
+  depends_on "libzenohc" => :recommended
+  depends_on "zenoh-plugin-rest" => :recommended
+  depends_on "zenoh-plugin-storage-manager" => :recommended
 
   on_macos do
     on_intel do
-      url "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/x86_64-apple-darwin/zenoh-0.10.1-rc-x86_64-apple-darwin.zip"
-      sha256 "0a9471cc1ff0e18b51120c7cc7d2e920afb3f2a1647f03d059a6fc24e9cb4a45"
+      url release["x86_64-url"]
+      sha256 release["x86_64-sha256"]
     end
     on_arm do
-      url "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/aarch64-apple-darwin/zenoh-0.10.1-rc-aarch64-apple-darwin.zip"
-      sha256 "03ae125c26d498a83cd91dfc4516f36c0503b595959400bc04907562dfeed19f"
+      url release["aarch64-url"]
+      sha256 release["aarch64-sha256"]
     end
   end
 
-  depends_on "zenohd"
-  depends_on "zenoh-plugin-rest" => :recommended
-  depends_on "zenoh-plugin-storages" => :recommended
-  depends_on "libzenohc" => :recommended
-
   def install
-    File.open('zenoh.1', 'w') { |file| file.write(`zenohd --help`) }
+    File.write("zenoh.1", `zenohd --help`)
     man1.install "zenoh.1"
   end
 end

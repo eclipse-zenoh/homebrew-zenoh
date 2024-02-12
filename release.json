@@ -1,0 +1,110 @@
+{
+    "libzenohc": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-c/0.10.1-rc/x86_64-apple-darwin/zenoh-c-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "bd44c88b8ba3d8245d97f780fe82873ed8ee87c09c37365509e2feae2a198e28",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-c/0.10.1-rc/aarch64-apple-darwin/zenoh-c-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "0df497b16cf1bd968deea36aca43d6c086a54d69ea78e3feaed309760e0dcaa4"
+    },
+    "zenoh": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/x86_64-apple-darwin/zenoh-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "0a9471cc1ff0e18b51120c7cc7d2e920afb3f2a1647f03d059a6fc24e9cb4a45",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/aarch64-apple-darwin/zenoh-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "03ae125c26d498a83cd91dfc4516f36c0503b595959400bc04907562dfeed19f"
+    },
+    "zenohd": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/x86_64-apple-darwin/zenoh-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "0a9471cc1ff0e18b51120c7cc7d2e920afb3f2a1647f03d059a6fc24e9cb4a45",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/aarch64-apple-darwin/zenoh-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "03ae125c26d498a83cd91dfc4516f36c0503b595959400bc04907562dfeed19f"
+    },
+    "zenoh-plugin-rest": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/x86_64-apple-darwin/zenoh-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "0a9471cc1ff0e18b51120c7cc7d2e920afb3f2a1647f03d059a6fc24e9cb4a45",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/aarch64-apple-darwin/zenoh-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "03ae125c26d498a83cd91dfc4516f36c0503b595959400bc04907562dfeed19f"
+    },
+    "zenoh-plugin-storage-manager": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/x86_64-apple-darwin/zenoh-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "0a9471cc1ff0e18b51120c7cc7d2e920afb3f2a1647f03d059a6fc24e9cb4a45",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh/0.10.1-rc/aarch64-apple-darwin/zenoh-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "03ae125c26d498a83cd91dfc4516f36c0503b595959400bc04907562dfeed19f"
+    },
+    "zenoh-plugin-dds": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.1-rc/x86_64-apple-darwin/zenoh-plugin-dds-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "b406ca177b846480cc2c38492c1fb4eeff68d17faef4dc38e20f11c2ca37a5d9",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.1-rc/aarch64-apple-darwin/zenoh-plugin-dds-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "f72e66c2eaff094ed276dccd6c1b904d4297ee8e636059ff16f021174dcbe4bc"
+    },
+    "zenoh-bridge-dds": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.1-rc/x86_64-apple-darwin/zenoh-bridge-dds-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "30d33f7c5d3122d3a4c990b2024fcf9fc1768d6c932196fd11e16f090504545c",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-dds/0.10.1-rc/aarch64-apple-darwin/zenoh-bridge-dds-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "d447315980d608ddeb8cd8092ce66e9d583bd8ca722d7cd41d930b3907967c31"
+    },
+    "zenoh-plugin-mqtt": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-mqtt/0.10.1-rc/x86_64-apple-darwin/zenoh-plugin-mqtt-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "21841e8779c6eaba433f50e41e8ce3145399d8a67268680c1e1e4ddfcfd3c1cb",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-mqtt/0.10.1-rc/aarch64-apple-darwin/zenoh-plugin-mqtt-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "c1e2c9ddef5d5b352c360cb15d5e2486481bac3f865a47b0e0e551a89b4589e5"
+    },
+    "zenoh-bridge-mqtt": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-mqtt/0.10.1-rc/x86_64-apple-darwin/zenoh-bridge-mqtt-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "dd366c1fbcdd53268153a6a09e9ec10cecb2700120a971e8eb4edd19a81cdc89",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-mqtt/0.10.1-rc/aarch64-apple-darwin/zenoh-bridge-mqtt-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "5e15a0d9f4ab4ade5e88b56af3e4bc3c49000f6678b460bd9902a4f17f046bd7"
+    },
+    "zenoh-plugin-ros1": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-ros1/0.10.1-rc/x86_64-apple-darwin/zenoh-plugin-ros1-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "1bf7ce7af9d19b319ac3d619086184921335d70b20470facad70f8e180d6bdad",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-ros1/0.10.1-rc/aarch64-apple-darwin/zenoh-plugin-ros1-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "318dc4ddbd5cc3acff5b61e063abf7bd35265501151ce78fcd7901efe8ba5a13"
+    },
+    "zenoh-bridge-ros1": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-ros1/0.10.1-rc/x86_64-apple-darwin/zenoh-bridge-ros1-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "ef9260648a918d24c47ddf82e548bd151a2c2df1704fa8b3385b36d8f7532df7",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-ros1/0.10.1-rc/aarch64-apple-darwin/zenoh-bridge-ros1-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "9572b177f1220ebdbc60141d716f50df67f05a13c2e8c25ebd9affa89ab10c66"
+    },
+    "zenoh-plugin-ros2dds": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-ros2dds/0.10.1-rc.2/x86_64-apple-darwin/zenoh-plugin-ros2dds-0.10.1-rc.2-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "5140d22ace45d6f5a662db4347716896e85791ed89a8cd33e6bf9d4d02c83152",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-ros2dds/0.10.1-rc.2/aarch64-apple-darwin/zenoh-plugin-ros2dds-0.10.1-rc.2-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "ebae47e2c98ede0cb0b6889292d769de30e317b0627760cc86b3265db2b32cc6"
+    },
+    "zenoh-bridge-ros2dds": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-ros2dds/0.10.1-rc.2/x86_64-apple-darwin/zenoh-bridge-ros2dds-0.10.1-rc.2-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "c58ea2d64175e1cde3b0231c651521f6e395ea80ed82533a03b7c09d9001e20a",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-ros2dds/0.10.1-rc.2/aarch64-apple-darwin/zenoh-bridge-ros2dds-0.10.1-rc.2-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "ba6e207310e32d2d7f97fcb51e00670898b60ed41b268ec9a2448f838b839402"
+    },
+    "zenoh-plugin-webserver": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-webserver/0.10.1-rc/x86_64-apple-darwin/zenoh-plugin-webserver-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "eb42fb38703e7e53386a286f7b60f09f98325ef756e7cbec041f4c49877c5748",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-plugin-webserver/0.10.1-rc/aarch64-apple-darwin/zenoh-plugin-webserver-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "6e5f2fed07a447ae4ee7eb68f75f3de396f42b32d13dd2c3f23f1d936436797a"
+    },
+    "zenoh-backend-filesystem": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-backend-filesystem/0.10.1-rc/x86_64-apple-darwin/zenoh-backend-filesystem-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "b41d515362b953fb6a83b647c9a35699ea026f04e094273267bd40739f135455",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-backend-filesystem/0.10.1-rc/aarch64-apple-darwin/zenoh-backend-filesystem-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "b3a5a51000f4e2b3dab02cbe9db0a5e078a50222773842614c012fe177962228"
+    },
+    "zenoh-backend-influxdb": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-backend-influxdb/0.10.1-rc/x86_64-apple-darwin/zenoh-backend-influxdb-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "ce8afd477de5cc6340a7d10a1f7158d0d98f63082326a5cd63bb6af6513aae3f",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-backend-influxdb/0.10.1-rc/aarch64-apple-darwin/zenoh-backend-influxdb-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "beff8cb583e07c3b610bc4073decbd1efb6211a4319a643576551e09cb648c50"
+    },
+    "zenoh-backend-rocksdb": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-backend-rocksdb/0.10.1-rc/x86_64-apple-darwin/zenoh-backend-rocksdb-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "462c858257b273c9e3e53fb08d2a70b98984e0fc762aa7b880b7092497f5a88a",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-backend-rocksdb/0.10.1-rc/aarch64-apple-darwin/zenoh-backend-rocksdb-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "dfda4c319d7ea9e8d94758c79fd3adf64850fc10823499b3bd6e026d57628290"
+    },
+    "zenoh-backend-s3": {
+        "x86_64-url": "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.1-rc/x86_64-apple-darwin/zenoh-backend-s3-0.10.1-rc-x86_64-apple-darwin.zip",
+        "x86_64-sha256": "6ccc57ad8e3887aaa431d4eb3102e78643a234a8715993cdca9924580afd0979",
+        "aarch64-url": "https://download.eclipse.org/zenoh/zenoh-backend-s3/0.10.1-rc/aarch64-apple-darwin/zenoh-backend-s3-0.10.1-rc-aarch64-apple-darwin.zip",
+        "aarch64-sha256": "d30c4d371c74265cb7b9bc7afb5141184504bd57a940ca246de7477e34aa3b45"
+    }
+}
