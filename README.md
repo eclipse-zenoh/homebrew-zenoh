@@ -50,8 +50,10 @@ The zenoh public homebrew tap for OS X homebrew formulae
   <dd>Eclipse zenoh s3 backend.</dd>
   <dt>zenoh-backend-rocksdb</dt>
   <dd>Eclipse zenoh rocksdb backend.</dd>
-  <dt>zenoh-backend-influxdb</dt>
+  <dt>zenoh-backend-influxdb-v1</dt>
   <dd>Eclipse zenoh influxdb backend.</dd>
+  <dt>zenoh-backend-influxdb-v2</dt>
+  <dd>Eclipse zenoh influxdb2 backend.</dd>
   <dt>zenoh-backend-filesystem</dt>
   <dd>Eclipse zenoh filesystem backend.</dd>
   <dt>libzenohc</dt>
