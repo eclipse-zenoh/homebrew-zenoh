@@ -1,6 +1,6 @@
 require "json"
 
-class ZenohBackendInfluxdb < Formula
+class ZenohBackendInfluxdbV2 < Formula
   release = JSON.parse(File.read("#{__dir__}/release.json"))[File.basename(__FILE__, ".rb")]
 
   desc "Eclipse zenoh influxdb backend"
@@ -21,6 +21,6 @@ class ZenohBackendInfluxdb < Formula
   end
 
   def install
-    lib.install "libzenoh_backend_influxdb.dylib"
+    lib.install "libzenoh_backend_influxdb2.dylib"
   end
 end
