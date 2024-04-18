@@ -19,9 +19,8 @@ The zenoh public homebrew tap for OS X homebrew formulae
   <dd>Eclipse Zenoh. A meta-formula that will install the following formulae:
      <ul>
          <li><i>zenohd</i></li>
-         <li><i>zenoh-http</i></li>
-         <li><i>zenoh-storages</i></li>
-         <li><i>libzenohc</i></li>
+         <li><i>zenoh-plugin-rest</i></li>
+         <li><i>zenoh-plugin-storage-manager</i></li>
      </ul>
   </dd>
   <dt>zenohd</dt>
