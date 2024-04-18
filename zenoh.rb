@@ -7,7 +7,6 @@ class Zenoh < Formula
   homepage "https://zenoh.io"
 
   depends_on "zenohd"
-  depends_on "libzenohc" => :recommended
   depends_on "zenoh-plugin-rest" => :recommended
   depends_on "zenoh-plugin-storage-manager" => :recommended
 
