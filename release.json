@@ -30,16 +30,16 @@
     "aarch64-sha256": "0c63bccd75e3d6e04e0ee5cb9437b92e6d7f915adcc569fb8305602a4954e9d3"
   },
   "zenoh-plugin-dds": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-0.11.0-rc.3-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "1ce5ed8fd183afd6c4a1b10ace427314034b66c31eb2ce13e0758e995ed39cfb",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-0.11.0-rc.3-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "711446ba2aec30e286bb2329db434663e93dc63e10fd6141f8e75a018c737a96"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-0.11.0-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "800277813f01df351e609f9a0af483703a80d5b2a011021b253f804c1d86c246",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-0.11.0-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "8fcb352472fff38aadcfb4fcedac288cbdfd5040d1efc2e51590b9ed09ce3f91"
   },
   "zenoh-bridge-dds": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-0.11.0-rc.3-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "1ce5ed8fd183afd6c4a1b10ace427314034b66c31eb2ce13e0758e995ed39cfb",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-0.11.0-rc.3-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "711446ba2aec30e286bb2329db434663e93dc63e10fd6141f8e75a018c737a96"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-0.11.0-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "800277813f01df351e609f9a0af483703a80d5b2a011021b253f804c1d86c246",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-0.11.0-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "8fcb352472fff38aadcfb4fcedac288cbdfd5040d1efc2e51590b9ed09ce3f91"
   },
   "zenoh-plugin-mqtt": {
     "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-0.11.0-rc.3-x86_64-apple-darwin-standalone.zip",
