@@ -42,16 +42,16 @@
     "aarch64-sha256": "e58aaba00a8ad4b76001fd66fa8663e1325e893746d5ad31441fd37f88d0a66f"
   },
   "zenoh-plugin-mqtt": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.0.0-alpha.2-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "0089f6193da0711d638147cc29731424d35fb5b11e1c716c75c511bd2680e530",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.0.0-alpha.2-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "78c9c4cf531656eae512f9d0103e60025bd798dccb2064c1d16ad220534720d5"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-0.11.1-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "86f8264a486956e9c0b660c2d69c157217ecff1c24a131d5e3f8392f8c802210",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-0.11.1-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "48e822fd577e96c26699da59943706129fa4690acbe340c968265578ac6dd442"
   },
   "zenoh-bridge-mqtt": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.0.0-alpha.2-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "0089f6193da0711d638147cc29731424d35fb5b11e1c716c75c511bd2680e530",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.0.0-alpha.2-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "78c9c4cf531656eae512f9d0103e60025bd798dccb2064c1d16ad220534720d5"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-0.11.1-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "86f8264a486956e9c0b660c2d69c157217ecff1c24a131d5e3f8392f8c802210",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-0.11.1-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "48e822fd577e96c26699da59943706129fa4690acbe340c968265578ac6dd442"
   },
   "zenoh-plugin-ros1": {
     "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros1-1.0.0-alpha.2-x86_64-apple-darwin-standalone.zip",
