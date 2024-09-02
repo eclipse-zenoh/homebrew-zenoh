@@ -102,10 +102,10 @@
     "aarch64-sha256": "eb538bce10b1dcb29090e2c20502d5e8cfcff686563e672efca91a240236e724"
   },
   "zenoh-backend-rocksdb": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-rocksdb-1.0.0-alpha.6-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "959bf2fa05a5e8eaf2f44c2fc1d971a5a365094d2bc5759eab38bef1016d35bc",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-rocksdb-1.0.0-alpha.6-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "aa854ad649d044723a3b824b04b6c447fcc6b533dd8023a5787b29546e91a426"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-rocksdb-1.0.0-beta.1-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "230a9699d5fbe2c6368b1636e0f7022ac6b7739a74968418a76c90026f984d47",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-rocksdb-1.0.0-beta.1-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "7bee92e9ec6ff32fdad883c51cdaeff019f4b84548cc26b4864d50c153472968"
   },
   "zenoh-backend-s3": {
     "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-s3-1.0.0-beta.1-x86_64-apple-darwin-standalone.zip",
