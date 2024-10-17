@@ -6,28 +6,28 @@
     "aarch64-sha256": "ca5415cd33c283dea34958f0f60c7618c548977a446a5754c422dbabd055bd5b"
   },
   "zenoh": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.1-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "5e55a7eaf5235f098ac831aad73a579034914f246e8dd712ba84f0744829d8cc",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.1-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "8b998a54e925d50f27c5420ff68f8893bdeeadf6c2d08a7eac48698ed3e773e2"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.2-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "e84dd987215aff7a73e8597d89cf73c83e4774fa078561bac9793b254e0e885a",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.2-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "778735ea9692cc1dfac147a4ceeeff582eb5e882003536a953d4f36f233bc923"
   },
   "zenohd": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.1-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "5e55a7eaf5235f098ac831aad73a579034914f246e8dd712ba84f0744829d8cc",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.1-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "8b998a54e925d50f27c5420ff68f8893bdeeadf6c2d08a7eac48698ed3e773e2"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.2-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "e84dd987215aff7a73e8597d89cf73c83e4774fa078561bac9793b254e0e885a",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.2-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "778735ea9692cc1dfac147a4ceeeff582eb5e882003536a953d4f36f233bc923"
   },
   "zenoh-plugin-rest": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.1-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "5e55a7eaf5235f098ac831aad73a579034914f246e8dd712ba84f0744829d8cc",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.1-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "8b998a54e925d50f27c5420ff68f8893bdeeadf6c2d08a7eac48698ed3e773e2"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.2-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "e84dd987215aff7a73e8597d89cf73c83e4774fa078561bac9793b254e0e885a",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.2-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "778735ea9692cc1dfac147a4ceeeff582eb5e882003536a953d4f36f233bc923"
   },
   "zenoh-plugin-storage-manager": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.1-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "5e55a7eaf5235f098ac831aad73a579034914f246e8dd712ba84f0744829d8cc",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.1-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "8b998a54e925d50f27c5420ff68f8893bdeeadf6c2d08a7eac48698ed3e773e2"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.2-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "e84dd987215aff7a73e8597d89cf73c83e4774fa078561bac9793b254e0e885a",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-1.0.0-rc.2-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "778735ea9692cc1dfac147a4ceeeff582eb5e882003536a953d4f36f233bc923"
   },
   "zenoh-plugin-dds": {
     "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.0.0-rc.1-x86_64-apple-darwin-standalone.zip",
