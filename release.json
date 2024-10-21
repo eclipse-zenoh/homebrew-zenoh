@@ -30,16 +30,16 @@
     "aarch64-sha256": "b2f455074c46db600da49be990f27f59bfa8bde6f40e513522241ce651473f7c"
   },
   "zenoh-plugin-dds": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.0.0-rc.2-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "953f722d839d2abc1379571d58c287806e46dd3e476819e921efdd89c3ef8d52",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.0.0-rc.2-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "facc04c359a53e78e99fdb7c18c8a4f712f24c83a43fcf598ecb5e76c727a94a"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.0.0-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "72d0db3ec098a115705ed7c54d988cad72db382978f48d24952d7665f2d5524c",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.0.0-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "1a4f98f615ffe1d7cd7c64e553dd3af90953892d9394fe656436cd5e76132484"
   },
   "zenoh-bridge-dds": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.0.0-rc.2-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "953f722d839d2abc1379571d58c287806e46dd3e476819e921efdd89c3ef8d52",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.0.0-rc.2-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "facc04c359a53e78e99fdb7c18c8a4f712f24c83a43fcf598ecb5e76c727a94a"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.0.0-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "72d0db3ec098a115705ed7c54d988cad72db382978f48d24952d7665f2d5524c",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.0.0-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "1a4f98f615ffe1d7cd7c64e553dd3af90953892d9394fe656436cd5e76132484"
   },
   "zenoh-plugin-mqtt": {
     "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.0.0-rc.2-x86_64-apple-darwin-standalone.zip",
