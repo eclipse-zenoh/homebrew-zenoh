@@ -18,7 +18,7 @@ class Libzenohc < Formula
   end
 
   def install
-    lib.install "libzenohc.dylib"
+    lib.install "lib/libzenohc.dylib"
     include.install "include/zenoh.h"
     include.install "include/zenoh_commons.h"
     include.install "include/zenoh_concrete.h"
