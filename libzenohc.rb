@@ -19,9 +19,18 @@ class Libzenohc < Formula
 
   def install
     lib.install "lib/libzenohc.dylib"
+    lib.install "lib/libzenohc.a"
+    lib.install "lib/pkgconfig/zenohc.pc"
+    lib.install "lib/cmake/zenohc/zenohcConfig.cmake"
+    lib.install "lib/cmake/zenohc/zenohcConfigVersion.cmake"
     include.install "include/zenoh.h"
     include.install "include/zenoh_commons.h"
     include.install "include/zenoh_concrete.h"
     include.install "include/zenoh_macros.h"
+    include.install "include/zenoh_configure.h"
+    include.install "include/zenoh_constants.h"
+    include.install "include/zenoh_memory.h"
+    include.install "include/zenoh_opaque.h"
+
   end
 end
