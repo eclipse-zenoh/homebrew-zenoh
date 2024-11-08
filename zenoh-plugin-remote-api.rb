@@ -1,9 +1,9 @@
 require "json"
 
-class ZenohTS < Formula
+class ZenohPluginRemoteApi < Formula
   release = JSON.parse(File.read("#{__dir__}/release.json"))[File.basename(__FILE__, ".rb")]
 
-  desc "Eclipse zenoh-ts"
+  desc "Eclipse zenoh remote api plugin"
   homepage "https://zenoh.io"
 
   depends_on "zenoh-plugin-storage-manager"
