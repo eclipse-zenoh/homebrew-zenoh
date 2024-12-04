@@ -1,6 +1,6 @@
 require "json"
 
-class Libzenohc < Formula
+class Libzenohcpp < Formula
   release = JSON.parse(File.read("#{__dir__}/release.json"))[File.basename(__FILE__, ".rb")]
 
   desc "Zenoh-cpp API (geo-distributed pub/sub/query/storage of data)"
