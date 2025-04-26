@@ -31,5 +31,9 @@ class Libzenohc < Formula
     include.install "include/zenoh_constants.h"
     include.install "include/zenoh_memory.h"
     include.install "include/zenoh_opaque.h"
+
+    system "mkdir", "-p", "#{lib}/cmake/zenohc"
+    ln_sf "#{lib}/zenohcConfig.cmake", "#{lib}/cmake/zenohc/zenohcConfig.cmake"
+    ln_sf "#{lib}/zenohcConfigVersion.cmake", "#{lib}/cmake/zenohc/zenohcConfigVersion.cmake"
   end
 end
