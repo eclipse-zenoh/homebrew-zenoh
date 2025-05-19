@@ -22,5 +22,9 @@ class Libzenohcpp < Formula
     lib.install "lib/cmake/zenohcxx/zenohcxxConfig.cmake"
     lib.install "lib/cmake/zenohcxx/zenohcxxConfigVersion.cmake"
     include.install Dir["include/*"]
+
+    system "mkdir", "-p", "#{lib}/cmake/zenohcxx"
+    ln_sf "#{lib}/zenohcxxConfig.cmake", "#{lib}/cmake/zenohcxx/zenohcxxConfig.cmake"
+    ln_sf "#{lib}/zenohcxxConfigVersion.cmake", "#{lib}/cmake/zenohcxx/zenohcxxConfigVersion.cmake"
   end
 end
