@@ -1,4 +1,5 @@
 require "json"
+require "fileutils"
 
 class Libzenohcpp < Formula
   release = JSON.parse(File.read("#{__dir__}/release.json"))[File.basename(__FILE__, ".rb")]
@@ -23,7 +24,7 @@ class Libzenohcpp < Formula
     lib.install "lib/cmake/zenohcxx/zenohcxxConfigVersion.cmake"
     include.install Dir["include/*"]
 
-    system "mkdir", "-p", "#{lib}/cmake/zenohcxx"
+    FileUtils::mkdir_p "#{lib}/cmake/zenohcxx"
     ln_sf "#{lib}/zenohcxxConfig.cmake", "#{lib}/cmake/zenohcxx/zenohcxxConfig.cmake"
     ln_sf "#{lib}/zenohcxxConfigVersion.cmake", "#{lib}/cmake/zenohcxx/zenohcxxConfigVersion.cmake"
   end
