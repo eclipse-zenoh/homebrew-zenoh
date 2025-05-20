@@ -1,4 +1,5 @@
 require "json"
+require "fileutils"
 
 class Libzenohc < Formula
   release = JSON.parse(File.read("#{__dir__}/release.json"))[File.basename(__FILE__, ".rb")]
@@ -32,7 +33,7 @@ class Libzenohc < Formula
     include.install "include/zenoh_memory.h"
     include.install "include/zenoh_opaque.h"
 
-    system "mkdir", "-p", "#{lib}/cmake/zenohc"
+    FileUtils::mkdir_p "#{lib}/cmake/zenohc"
     ln_sf "#{lib}/zenohcConfig.cmake", "#{lib}/cmake/zenohc/zenohcConfig.cmake"
     ln_sf "#{lib}/zenohcConfigVersion.cmake", "#{lib}/cmake/zenohc/zenohcConfigVersion.cmake"
   end
