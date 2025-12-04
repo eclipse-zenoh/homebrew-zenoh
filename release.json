@@ -54,16 +54,16 @@
     "aarch64-sha256": "5ddb2ce17db2cdc227d3254519ffbf6d14089ca983d573b9194b61a85fc6706d"
   },
   "zenoh-plugin-mqtt": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.6.2-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "c29bf0a02380aaa619bceea4cc78361af0898b6a8dafc84887d825a8472f60e0",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.6.2-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "b6289cffdf8006685e628143472f4c43d2a0fbab82a0053c91e337a5b796881c"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.7.0-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "e11ce687a74d28058b4de7187afcd3b78ed6bd479f689b9a9473e04ec0821da9",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.7.0-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "a6f436e56905fbad687662477977d061e8ced54f8bf103129b3120f4ece0217e"
   },
   "zenoh-bridge-mqtt": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.6.2-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "c29bf0a02380aaa619bceea4cc78361af0898b6a8dafc84887d825a8472f60e0",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.6.2-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "b6289cffdf8006685e628143472f4c43d2a0fbab82a0053c91e337a5b796881c"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.7.0-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "e11ce687a74d28058b4de7187afcd3b78ed6bd479f689b9a9473e04ec0821da9",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.7.0-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "a6f436e56905fbad687662477977d061e8ced54f8bf103129b3120f4ece0217e"
   },
   "zenoh-plugin-ros1": {
     "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros1-1.0.0-beta.2-x86_64-apple-darwin-standalone.zip",
