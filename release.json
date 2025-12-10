@@ -120,9 +120,9 @@
     "aarch64-sha256": "bcfeddc94399ee64a8a56757a3937022819301ab22622887e3533aed3f7351db"
   },
   "zenoh-backend-s3": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-s3-1.7.0-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "0693f3b7044e63aec44bfee6707f2cdc83941c720e0a9ca7022a8be967f5a7e1",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-s3-1.7.0-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "99add65f75136d1202e60b0a63d07dd907cbf154bb247cf0ca1dc86c1e8ed4d2"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-s3-1.7.1-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "a1ec3371c1c6501fa190683d047b1988dd1c01f78e49d18c43ab42dc989f265d",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-s3-1.7.1-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "b313c118a20f409cfccbba0c4a60521badfc2c3c4f4b8a3f2ed219134993f916"
   }
 }
