@@ -42,16 +42,16 @@
     "aarch64-sha256": "c4cd9678c09a7b94653f1d468ac27744e62122a2d79c27a803c8e07542966dc8"
   },
   "zenoh-plugin-dds": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.7.2-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "07fcf4596b93d7e33a76970d4ce0411ac07a904a6071f97df8f9ff81ff4b6433",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.7.2-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "06b076b6da2701d46f6b39a5173e3cc0c6ee3c8d12963140b3b8359389b83b69"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.8.0-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "09f758bda701865ca289a70bb8cc0c03aa7b41d10c02c7e557d4549eb3f430cb",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.8.0-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "7245fe0d652d81bf4bd04e590b9510efad3bcfd6b3947e2810bb975d3e4b198e"
   },
   "zenoh-bridge-dds": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.7.2-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "07fcf4596b93d7e33a76970d4ce0411ac07a904a6071f97df8f9ff81ff4b6433",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.7.2-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "06b076b6da2701d46f6b39a5173e3cc0c6ee3c8d12963140b3b8359389b83b69"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.8.0-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "09f758bda701865ca289a70bb8cc0c03aa7b41d10c02c7e557d4549eb3f430cb",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-dds-1.8.0-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "7245fe0d652d81bf4bd04e590b9510efad3bcfd6b3947e2810bb975d3e4b198e"
   },
   "zenoh-plugin-mqtt": {
     "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-mqtt-1.8.0-x86_64-apple-darwin-standalone.zip",
