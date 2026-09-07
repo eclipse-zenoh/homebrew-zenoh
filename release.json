@@ -96,10 +96,10 @@
     "aarch64-sha256": "175bd55d9a429d782656e3cccf4df8fa3e0740ad7df527ccfa7a924476b86603"
   },
   "zenoh-backend-filesystem": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-filesystem-1.10.0-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "634f7c259d87d230d1b0394ec18d5140dbcf0e4eacbdc2223f9b6035e2303ff2",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-filesystem-1.10.0-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "41a7fc5434fe2ece97551c439964e57ea623ceb75bc2b8a4397fdb970cdd4cb9"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-filesystem-1.10.1-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "5a7ca9a8bf3e87403c8370dea34955d3280bbb35e2e9ce3c3d6677c27571fa36",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-filesystem-1.10.1-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "71bcacd35ac28b86c7f370eb3fdc72ac3415678fbfbf247c38d106a806734a4a"
   },
   "zenoh-backend-influxdb-v1": {
     "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-backend-influxdb-1.10.1-x86_64-apple-darwin-standalone.zip",
