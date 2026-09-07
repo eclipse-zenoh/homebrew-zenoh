@@ -78,16 +78,16 @@
     "aarch64-sha256": "eedd6588180de98a90cfa7e4dd35456788bbf34331940b023d9ccf1b7665a3aa"
   },
   "zenoh-plugin-ros2dds": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros2dds-1.10.0-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "9a3bb24be8f098a5c195fe9c193f0477c652095d0a76c7a3c04b3a45a8878658",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros2dds-1.10.0-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "91067a82af3fb67a3c8bd25982fd91d4908fb9fdb391fbf5b2fae130a8a957ed"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros2dds-1.10.1-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "0f4ce80d477aa6dd657d7434fc549feaaa37dce61d388ca26945dcb6242dec43",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros2dds-1.10.1-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "c39cc50cc02519e0e437fb570a9eb6498e1d1fe62f26ad3c3f61c2404256edc7"
   },
   "zenoh-bridge-ros2dds": {
-    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros2dds-1.10.0-x86_64-apple-darwin-standalone.zip",
-    "x86_64-sha256": "9a3bb24be8f098a5c195fe9c193f0477c652095d0a76c7a3c04b3a45a8878658",
-    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros2dds-1.10.0-aarch64-apple-darwin-standalone.zip",
-    "aarch64-sha256": "91067a82af3fb67a3c8bd25982fd91d4908fb9fdb391fbf5b2fae130a8a957ed"
+    "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros2dds-1.10.1-x86_64-apple-darwin-standalone.zip",
+    "x86_64-sha256": "0f4ce80d477aa6dd657d7434fc549feaaa37dce61d388ca26945dcb6242dec43",
+    "aarch64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-ros2dds-1.10.1-aarch64-apple-darwin-standalone.zip",
+    "aarch64-sha256": "c39cc50cc02519e0e437fb570a9eb6498e1d1fe62f26ad3c3f61c2404256edc7"
   },
   "zenoh-plugin-webserver": {
     "x86_64-url": "https://download.eclipse.org/zenoh/homebrew-tap/zenoh-plugin-webserver-1.10.1-x86_64-apple-darwin-standalone.zip",
