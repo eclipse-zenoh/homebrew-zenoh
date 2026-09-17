@@ -9,15 +9,14 @@ class ZenohPluginRemoteApi < Formula
   depends_on "zenoh-plugin-storage-manager"
   depends_on "zenohd"
 
-  on_macos do
-    on_intel do
-      url release["x86_64-url"]
-      sha256 release["x86_64-sha256"]
-    end
-    on_arm do
-      url release["aarch64-url"]
-      sha256 release["aarch64-sha256"]
-    end
+  depends_on :macos
+  on_intel do
+    url release["x86_64-url"]
+    sha256 release["x86_64-sha256"]
+  end
+  on_arm do
+    url release["aarch64-url"]
+    sha256 release["aarch64-sha256"]
   end
 
   def install
