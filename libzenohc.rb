@@ -7,15 +7,11 @@ class Libzenohc < Formula
   desc "Zenoh-c API (geo-distributed pub/sub/query/storage of data)"
   homepage "https://zenoh.io"
 
+  arch = Hardware::CPU.arm? ? "aarch64" : "x86_64"
+  url release["#{arch}-url"]
+  sha256 release["#{arch}-sha256"]
+
   depends_on :macos
-  on_intel do
-    url release["x86_64-url"]
-    sha256 release["x86_64-sha256"]
-  end
-  on_arm do
-    url release["aarch64-url"]
-    sha256 release["aarch64-sha256"]
-  end
 
   def install
     lib.install "lib/libzenohc.dylib"

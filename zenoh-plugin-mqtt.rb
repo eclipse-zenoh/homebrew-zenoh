@@ -6,17 +6,12 @@ class ZenohPluginMqtt < Formula
   desc "Eclipse zenoh mqtt plugin"
   homepage "https://zenoh.io"
 
-  depends_on "zenohd"
+  arch = Hardware::CPU.arm? ? "aarch64" : "x86_64"
+  url release["#{arch}-url"]
+  sha256 release["#{arch}-sha256"]
 
   depends_on :macos
-  on_intel do
-    url release["x86_64-url"]
-    sha256 release["x86_64-sha256"]
-  end
-  on_arm do
-    url release["aarch64-url"]
-    sha256 release["aarch64-sha256"]
-  end
+  depends_on "zenohd"
 
   def install
     lib.install "libzenoh_plugin_mqtt.dylib"
