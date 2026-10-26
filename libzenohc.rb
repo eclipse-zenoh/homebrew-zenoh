@@ -35,6 +35,6 @@ class Libzenohc < Formula
 
   test do
     assert_path_exists lib/"libzenohc.dylib"
-    assert_path_exists lib/"pkgconfig/zenohc.pc"
+    assert_path_exists lib/"zenohc.pc"
   end
 end

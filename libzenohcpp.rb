@@ -25,7 +25,7 @@ class Libzenohcpp < Formula
   end
 
   test do
-    assert_path_exists lib/"pkgconfig/zenohcxx.pc"
+    assert_path_exists lib/"zenohcxx.pc"
     assert_path_exists lib/"cmake/zenohcxx/zenohcxxConfig.cmake"
   end
 end
