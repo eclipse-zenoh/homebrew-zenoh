@@ -15,4 +15,8 @@ class Zenohd < Formula
   def install
     bin.install "zenohd"
   end
+
+  test do
+    system bin/"zenohd", "--version"
+  end
 end

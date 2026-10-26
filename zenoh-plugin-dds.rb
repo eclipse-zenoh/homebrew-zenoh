@@ -16,4 +16,8 @@ class ZenohPluginDds < Formula
   def install
     lib.install "libzenoh_plugin_dds.dylib"
   end
+
+  test do
+    assert_path_exists lib/"libzenoh_plugin_dds.dylib"
+  end
 end

@@ -16,4 +16,8 @@ class ZenohPluginMqtt < Formula
   def install
     lib.install "libzenoh_plugin_mqtt.dylib"
   end
+
+  test do
+    assert_path_exists lib/"libzenoh_plugin_mqtt.dylib"
+  end
 end

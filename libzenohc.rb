@@ -32,4 +32,9 @@ class Libzenohc < Formula
     ln_sf "#{lib}/zenohcConfig.cmake", "#{lib}/cmake/zenohc/zenohcConfig.cmake"
     ln_sf "#{lib}/zenohcConfigVersion.cmake", "#{lib}/cmake/zenohc/zenohcConfigVersion.cmake"
   end
+
+  test do
+    assert_path_exists lib/"libzenohc.dylib"
+    assert_path_exists lib/"zenohc.pc"
+  end
 end

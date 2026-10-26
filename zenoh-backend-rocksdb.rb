@@ -17,4 +17,8 @@ class ZenohBackendRocksdb < Formula
   def install
     lib.install "libzenoh_backend_rocksdb.dylib"
   end
+
+  test do
+    assert_path_exists lib/"libzenoh_backend_rocksdb.dylib"
+  end
 end

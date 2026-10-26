@@ -15,4 +15,8 @@ class ZenohBridgeRos1 < Formula
   def install
     bin.install "zenoh-bridge-ros1"
   end
+
+  test do
+    system bin/"zenoh-bridge-ros1", "--version"
+  end
 end

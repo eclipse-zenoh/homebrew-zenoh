@@ -19,4 +19,8 @@ class Zenoh < Formula
     File.write("zenoh.1", `zenohd --help`)
     man1.install "zenoh.1"
   end
+
+  test do
+    assert_path_exists man1/"zenoh.1"
+  end
 end

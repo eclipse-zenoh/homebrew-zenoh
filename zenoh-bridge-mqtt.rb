@@ -15,4 +15,8 @@ class ZenohBridgeMqtt < Formula
   def install
     bin.install "zenoh-bridge-mqtt"
   end
+
+  test do
+    system bin/"zenoh-bridge-mqtt", "--version"
+  end
 end
