@@ -16,4 +16,8 @@ class ZenohPluginRos1 < Formula
   def install
     lib.install "libzenoh_plugin_ros1.dylib"
   end
+
+  test do
+    assert_path_exists lib/"libzenoh_plugin_ros1.dylib"
+  end
 end

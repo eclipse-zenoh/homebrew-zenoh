@@ -16,4 +16,8 @@ class ZenohPluginRest < Formula
   def install
     lib.install "libzenoh_plugin_rest.dylib"
   end
+
+  test do
+    assert_path_exists lib/"libzenoh_plugin_rest.dylib"
+  end
 end

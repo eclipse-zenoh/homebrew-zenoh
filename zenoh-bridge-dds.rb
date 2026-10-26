@@ -15,4 +15,8 @@ class ZenohBridgeDds < Formula
   def install
     bin.install "zenoh-bridge-dds"
   end
+
+  test do
+    system bin/"zenoh-bridge-dds", "--version"
+  end
 end

@@ -17,4 +17,8 @@ class ZenohBackendInfluxdbV2 < Formula
   def install
     lib.install "libzenoh_backend_influxdb2.dylib"
   end
+
+  test do
+    assert_path_exists lib/"libzenoh_backend_influxdb2.dylib"
+  end
 end

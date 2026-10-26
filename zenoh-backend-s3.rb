@@ -17,4 +17,8 @@ class ZenohBackendS3 < Formula
   def install
     lib.install "libzenoh_backend_s3.dylib"
   end
+
+  test do
+    assert_path_exists lib/"libzenoh_backend_s3.dylib"
+  end
 end

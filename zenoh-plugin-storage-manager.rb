@@ -16,4 +16,8 @@ class ZenohPluginStorageManager < Formula
   def install
     lib.install "libzenoh_plugin_storage_manager.dylib"
   end
+
+  test do
+    assert_path_exists lib/"libzenoh_plugin_storage_manager.dylib"
+  end
 end

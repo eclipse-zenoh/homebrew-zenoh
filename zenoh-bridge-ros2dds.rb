@@ -15,4 +15,8 @@ class ZenohBridgeRos2dds < Formula
   def install
     bin.install "zenoh-bridge-ros2dds"
   end
+
+  test do
+    system bin/"zenoh-bridge-ros2dds", "--version"
+  end
 end

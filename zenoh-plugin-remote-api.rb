@@ -17,4 +17,8 @@ class ZenohPluginRemoteApi < Formula
   def install
     lib.install "libzenoh_plugin_remote_api.dylib"
   end
+
+  test do
+    assert_path_exists lib/"libzenoh_plugin_remote_api.dylib"
+  end
 end

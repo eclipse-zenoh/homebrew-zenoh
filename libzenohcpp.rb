@@ -23,4 +23,9 @@ class Libzenohcpp < Formula
     ln_sf "#{lib}/zenohcxxConfig.cmake", "#{lib}/cmake/zenohcxx/zenohcxxConfig.cmake"
     ln_sf "#{lib}/zenohcxxConfigVersion.cmake", "#{lib}/cmake/zenohcxx/zenohcxxConfigVersion.cmake"
   end
+
+  test do
+    assert_path_exists lib/"pkgconfig/zenohcxx.pc"
+    assert_path_exists lib/"cmake/zenohcxx/zenohcxxConfig.cmake"
+  end
 end
